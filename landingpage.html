@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    
+    , initial-scale=1.0">
+    <title>landing page</title>
+    <style>
+    body{
+        background-color: black;
+        color: white;
+        margin: 0;
+    }
+        nav{
+            position: fixed;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            max-width:800px;
+            display: flex;
+            justify-content: center; /* Centers links horizontally */
+            align-items: center;
+            background: rgba(148, 147, 34, 0.5);
+            padding: 10px;
+            border-radius: 25px; /* Rounded corners */
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        nav a{
+            text-decoration: none;
+            font-size: 30px;
+            margin:10px;
+            padding: 5px 20px;
+            transition: 0.4s;
+            color: white;
+            transition: 0.5s;
+        }
+        nav a:hover{
+            color: darkgray;
+            text-decoration: underline;
+        }
+        section{
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+            margin: 0;
+            display: flex;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href=#home>Home</a>
+            <a href=#about>About</a>
+            <a href=#ourcollection > Collection</a>
+            <a href=#contact>contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis vero deleniti nisi natus consectetur repudiandae minima quam harum facere tempora. Vitae, temporibus fuga obcaecati dolorem suscipit quas aliquid maiores alias!</p>
+            <img src=""    alt="">
+        </section>
+
+        <section id="about">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis consequuntur labore aspernatur, molestias maiores non at nobis repellendus pariatur delectus minima unde recusandae harum nulla quaerat! Ipsam suscipit esse adipisci!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam officiis ex facere doloribus, hic cupiditate labore quas dolorum dolor commodi molestias voluptas. Asperiores ratione illum adipisci quam optio, nihil minima.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et omnis obcaecati harum quisquam adipisci. Sed possimus laborum quam ea quidem doloribus tempora rem velit maiores! Iste vel quis quisquam laudantium?</p>
+        </section>
+
+        <section id="ourcollection">
+            <div class="card">
+                <img src=""  alt="">
+                <h1> card 1</h1>
+            </div>
+            <div class="card">
+                <img src=""  alt="">
+                <h1> card 2</h1>
+            </div>
+            <div class="card">
+                <img src=""  alt="">
+                <h1> card 3</h1>
+            </div>
+        </section>
+        <section id="contact">
+            <a href=""> insta</a>
+            <a href="">linkedin</a>
+            <a href="">telegram</a>
+            <a href="">twitter</a>
+
+            <div class="form">
+            <form>
+                <label> Name</label>
+                <input type="text" name="name"  required><br>
+                <label>Mesaage</label>
+                <input type="text"  name="message"  required><br>
+                <button> submit</button>
+            </form>
+            </div>
+        </section>
+        <footer> 2026 copy right reserved</footer>
+    </main>
+    
+</body>
+</html>
