@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="logo.png" alt="Logo">
+            <div class="links">
+            <a href="#home"   class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skill"  class="nav-link" >Skill</a>
+            <a href="#project" class="nav-link"  >project</a>
+            <a href="#contact"  class="nav-link" >Contact</a>
+        </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="text">
+             <h1>Hello,I'm <b>Elshaday Kidane</b></h1><br>
+             <h3> A Software engineering student at <br> Dire Dawa University.</h3>
+            </div>
+             <img src="p.jpg"" alt="photo">
+        </section>
+        <section id="about">
+            <p>Hi there! I'm Elshaday, a dedicated software engineering student with a strong enthusiasm for technology and continuous learning.  Although I have worked on a handful of projects, each experience has fueled my eagerness to dive deeper into the tech world.</p>
+            <p>I’ve developed skills in some programming languages like Java, C++ and Php, and I’m excited to apply my knowledge in real-world projects,particularly in web development. I also value teamwork and problem-solving, and I’m eager to collaborate on innovative projects.</p>
+            <p>In my free time, I enjoy working on personal projects.</p>
+        </section>
+        <section id="skill">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <i class="fas fa-code"></i>
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Java (Intermediate)</li>
+                        <li>C++ (Intermediate)</li>
+                        <li>PHP (Beginner)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React (Beginner)</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <i class="fas fa-wrench"></i>
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Visual Studio Code</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <i class="fas fa-database"></i>
+                    <h3>Database</h3>
+                    <ul>
+                        <li>MySQL (Intermediate)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <i class="fas fa-users"></i>
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Teamwork</li>
+                        <li>Problem-Solving</li>
+                        <li>Communication</li>
+                        <li>Adaptability</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="project">
+            <div class="project active ">
+                <h3> shop website</h3>
+                <p><i class="fa-solid fa-quote-left"></i> A static shop website that have a landing page for a specific<br>
+                    habesha cloth shop that have 3 collections which are shown in  <br>
+                    different pages when clicked.Additionally there is a cart connected <br>
+                     to a database to store selected items that can  be deleted .<i class="fa-solid fa-quote-right"></i><br><br>
+                    <b> Using Html,Css JavaScript and Php</b>
+                </p>
+                <div class="button">
+                <button class="btn" onclick="nextSlide()">Next</button>
+                </div>
+            </div>
+            <div class="project hidden">
+                <h3>Inventory Managment  sytem</h3>
+                <p> <i class="fa-solid fa-quote-left"></i>An inventory Managment system build for dire dawa university<br>
+                    which have support for 5 differrent  roles with user login and autentication.<br>
+                    Each role have different actions based on thier role,For instance: system admin<br>
+                    can add update and delete users like this others roles also can do different action.<i class="fa-solid fa-quote-right"></i>
+                </p>
+                <div class="buttons">
+                    <button class="btn" onclick="prevSlide()">Previous</button>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact-container">
+                <div class="contact-section">
+                    <h2>Get In Touch</h2>
+                    <p>Feel free to reach out.</p>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your message" required></textarea><br>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="social-links">
+                    <ul>
+                        <li><a href="mailto:elshadaykidane4@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                        <li><a href="tel:+251901943810"><i class="fas fa-phone"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/elshaday-kidane-218800333/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/Elkidane" target="_blank"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://telegram.com/@makii43" target="_blank"><i class="fab fa-telegram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2025 Elshaday Kidane. All Rights Reserved.</p>
+
+    </footer>
+   
+           
+           
+    </div>
+
+
+    <script>
+     document.querySelectorAll('.nav-link').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop - 50, 
+            });
+        }
+    });
+});
+
+
+
+    let currentIndex = 0;
+    const projects = document.querySelectorAll(".project");
+
+    function showSlide(index) {
+        projects.forEach((project, i) => {
+            project.classList.add("hidden");
+            project.classList.remove("active");
+        });
+        projects[index].classList.remove("hidden");
+        projects[index].classList.add("active");
+    }
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % projects.length;
+        showSlide(currentIndex);
+    }
+
+    function prevSlide() {
+        currentIndex = (currentIndex - 1 + projects.length) % projects.length;
+        showSlide(currentIndex);
+    }
+
+    // Ensure the first project is visible on load
+    showSlide(currentIndex);
+
+    // Make nextSlide & prevSlide globally accessible
+    window.nextSlide = nextSlide;
+    window.prevSlide = prevSlide;
+
+
+
+
+
+
+    </script>
+</body>
+</html>
